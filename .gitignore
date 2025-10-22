@@ -1,0 +1,71 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django / DRF specific
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment & secrets
+.env
+*.env
+.env.*
+!example.env  # keep a sample env file if needed
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+*.cover
+
+# Mypy / type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Build & distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Lock and dependency files (keep pyproject.toml, ignore lock)
+uv.lock
+Pipfile.lock
+poetry.lock
